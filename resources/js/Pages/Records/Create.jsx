@@ -149,6 +149,9 @@ export default function Create(props) {
 
                                         )}
 
+                                        <div className="text-sm text-gray-600">
+                                            If you don't have an IMDb ID, you can search for a movie title here.
+                                        </div>
                                         <span className="text-red-600">
                                             {errors.title}
                                         </span>
